@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap">
+    {% for datum in data %}
+    <div class="card bg-secondary text-white "style=" transform: scale(0.8);width: 18rem" >
+        <img src="{{ datum.picture_url }}" class="card-img-top" alt="image">
+        <div class="card-body">
+            <h5 class="card-title">{{ datum.title}}</h5>
+            <p class="card-text">Kategoria: {{ datum.category}}</p>
+            <p class="card-text">Wersja dźwiękowa: {{ datum.soundtrack}}</p>
+            <p class="card-text">Język: {{ datum.language}}</p>
+            <a href="/store/movie/edit?id={{ datum.id }}" class="btn btn-danger">Edytuj</a>
+            <a href="/store/movie/delete?id={{ datum.id }}" class="btn btn-danger">Usuń</a>
+            <div class="card-footer">
+                {% if datum.subtitles %}
+                <p class="card-text">Dostępne napisy język: {{ datum.subtitles_language }}</p>
+                {% else %}
+                    <p class="card-text">Napisy niedostępne</p>
+                {% endif %}
+            </div>
+  </div>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}

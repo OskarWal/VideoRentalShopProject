@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="fs-1 pt-5 text-center">Dodawanie filmu</div>
+<form class="form-row text-center pt-5 m-auto w-50" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit" class="btn btn-danger my-sm-3 w-50">Dodaj film</button>
+</form>
+
+{% endblock %}

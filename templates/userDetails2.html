@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<form class="mt-5 text-center m-auto w-50" method="post">
+{% csrf_token %}
+  <div class="mb-3 row">
+    <label for="staticCoins" class="col-sm-2 col-form-label text-danger">Monety</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext text-danger" id="staticCoins" value="{{ profile.coins }}" maxlength="50">
+    </div>
+  </div>
+  <div class="mb-3 row">
+    <label for="staticLogin" class="col-sm-2 col-form-label">Login</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext text-white" id="staticLogin" value="{{ user.username}}" maxlength="50">
+    </div>
+  </div>
+        {{ form }}
+<button type="submit" class="btn btn-danger w-50 mt-2 ">Zaktualizuj dane</button>
+</form>
+
+{% endblock %}
