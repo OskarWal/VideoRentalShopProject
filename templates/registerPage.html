@@ -1,12 +1,14 @@
 {% extends 'base.html' %}
 {% block content %}
 
+
 <form class="form-row text-center" method="post" style="margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)">
+<div class="fs-1 pt-5 mb-5 text-center">Rejestracja</div>
     {% csrf_token %}
     {{ form }}
     <button type="submit" class="btn btn-danger my-sm-3 w-50">Zarejestruj</button>
