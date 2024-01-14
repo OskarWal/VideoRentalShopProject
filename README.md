@@ -24,7 +24,7 @@ WatchMe is an application developed using the Python language and the Django fra
   - "Coins" as currency
 
 
-##Data Model Diagram
+## Data Model Diagram
 ![Database diagram](screenshots/database_diagram.svg)
 
 ## Endpoints
@@ -46,63 +46,63 @@ WatchMe is an application developed using the Python language and the Django fra
 | Delete Movie       | `/store/movie/delete`  | **Superuser** |
 | Django Admin Panel | `/admin`               | **Superuser** |
 
-##Screenshots
+## Screenshots
 
-###Home Page
+### Home Page
 ![HomePage](screenshots/HomePage.png)
 
-###Search Movie Results List Page
+### Search Movie Results List Page
 ![SearchResultPage](screenshots/SearchResultPage.png)
 
 <!--###Register Form Page
 ![RegisterPage](screenshots/RegisterPage.png)-->
 
-###User Exist Alert on Register Page
+### User Exist Alert on Register Page
 ![UserExistAction](screenshots/UserExistAction.png)
 
-###Login Form Page and Bad Credentials Alert
+### Login Form Page and Bad Credentials Alert
 ![BadLoginAction](screenshots/BadLoginAction.png)
 
-###Movie Details Page
+### Movie Details Page
 ![DetailsPage](screenshots/DetailsPage.png)
 
-###Edit User Details Form Page and Edit Alert
+### Edit User Details Form Page and Edit Alert
 ![ChangedUserDetails](screenshots/ChangedUserDetails.png)
 
-###Rented Movies List Page
+### Rented Movies List Page
 ![RentedMoviePage](screenshots/RentedMoviePage.png)
 
-###Add Coins Form Page
+### Add Coins Form Page
 ![AddCoins](screenshots/AddCoins.png)
 
-###Rented Movie Success Alert on Movie Details Page
+### Rented Movie Success Alert on Movie Details Page
 ![RentMovieAction](screenshots/RentMovieAction.png)
 
-###Add Movie Form Page and Added Movie Success Alert
+### Add Movie Form Page and Added Movie Success Alert
 ![AddedMovieAction](screenshots/AddedMovieAction.png)
 
-###Movies Edit or Delete List Page and Edited Success Alert
+### Movies Edit or Delete List Page and Edited Success Alert
 ![EditedMovieAction](screenshots/EditedMovieAction.png)
 
-###Edit Movie Form Page
+### Edit Movie Form Page
 ![EditMoviePage](screenshots/EditMoviePage.png)
 
-###User Actions Panel
+### User Actions Panel
 ![UserExistAction](screenshots/UserPanel.png)
 
-###Admin Actions Panel
+### Admin Actions Panel
 ![adminPanel](screenshots/AdminPanel.png)
 
-###Lost Access To Watch Movie Alert on Home Page
+### Lost Access To Watch Movie Alert on Home Page
 ![LostAccessToMovie](screenshots/LostAccessToMovie.png)
 
-###Unauthorized Alert on Home Page
+### Unauthorized Alert on Home Page
 ![Unauthorized](screenshots/Unauthorized.png)
 
-###Admin Django Panel
+### Admin Django Panel
 ![adminDjangoPanel](screenshots/adminDjango.png)
 
-##Tech Stack
+## Tech Stack
 [![My Skills](https://skillicons.dev/icons?i=python,django,bootstrap,sqlite,html&theme=light)](https://skillicons.dev)
 
 ## Author
