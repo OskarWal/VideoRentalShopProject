@@ -1,6 +1,7 @@
 # WatchMe - Online Movie Rental
 ![Logo](https://i.imgur.com/KejfKMV.png)
-##Description
+
+## Description
 WatchMe is an application developed using the Python language and the Django framework. It is used to operate an online movie rental service. It offers easy management of movies, users and administrators. It displays notifications of all activities and allows you to rent movies for a period of 7 days.
 
 ## Features:
